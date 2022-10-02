@@ -19,6 +19,10 @@ Together with an ESP8266 D1-mini microcontroller and the Arduino library [Sensor
 
 The library can be used on any analog microcontroller input, thus not requiring the sensor board.
 
+## Board main features
+
+TBD.
+
 ## Items to add
 
 - Wemos/Lolin D1-mini ESP8266 microcontroller. The WLED sensor becomes a shield on top of the controller.
