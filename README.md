@@ -1,5 +1,10 @@
 ![prototyping solderable board](./images/3d-view-wled-dc-current-sensor.png)
 
+[![GitHub version](https://img.shields.io/github/release/berrak/WLED-DC-Sensor-Board.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/WLED-DC-Sensor-Board/releases/latest)
+[![GitHub Release Date](https://img.shields.io/github/release-date/berrak/WLED-DC-Sensor-Board.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/WLED-DC-Sensor-Board/releases/latest)
+[![GitHub stars](https://img.shields.io/github/stars/berrak/WLED-DC-Sensor-Board.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/WLED-DC-Sensor-Board/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/berrak/WLED-DC-Sensor-Board.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/WLED-DC-Sensor-Board/issues)
+
 # The WLED-DC-Sensor-Board
 
 ## WLED Neopixel projects 
