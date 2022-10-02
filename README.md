@@ -21,7 +21,20 @@ The library can be used on any analog microcontroller input, thus not requiring 
 
 ## Board main features
 
-TBD.
+The board is based on Texas Instrument INAx180 low- and high-side voltage output current-sense amplifier with the following main characteristics.
+
+- Common-mode range (V CM ): –0.2 V to +26 V
+- Output slew rate: 2 V/μs
+- Offset voltage:
+±150 μV (maximum) at V CM = 0 V
+±500 μV (maximum) at V CM = 12 V
+- Accuracy:
+ ±1% gain error (maximum)
+ 1-μV/°C offset drift (maximum) 
+ - Gain: 200V/V
+ - Quiescent current: 260 μA maximum
+
+The current sense resistor (1.5 mOhm, 1%, 50ppm/C) mesaure momentanous currents up to 10A.
 
 ## Items to add
 
