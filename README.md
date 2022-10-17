@@ -1,9 +1,10 @@
-![prototyping solderable board](./images/3d-view-wled-dc-current-sensor.png)
+![prototyping solderable board](./images/splash-3d-view-wled-dc-current-sensor.png)
 
 [![GitHub version](https://img.shields.io/github/release/berrak/WLED-DC-Sensor-Board.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/WLED-DC-Sensor-Board/releases/latest)
 [![GitHub Release Date](https://img.shields.io/github/release-date/berrak/WLED-DC-Sensor-Board.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/WLED-DC-Sensor-Board/releases/latest)
 [![GitHub stars](https://img.shields.io/github/stars/berrak/WLED-DC-Sensor-Board.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/WLED-DC-Sensor-Board/stargazers)
 [![GitHub issues](https://img.shields.io/github/issues/berrak/WLED-DC-Sensor-Board.svg?logo=github&logoColor=ffffff)](https://github.com/berrak/WLED-DC-Sensor-Board/issues)
+![Badge Hit Counter](https://visitor-badge.laobi.icu/badge?page_id=berrak_WLED-DC-Sensor-Board)
 
 # The WLED-DC-Sensor-Board
 
@@ -75,3 +76,7 @@ Find all the latest designed boards on `Tindie`.
 [![Tindie](./images/tindie-small.png)](https://www.tindie.com/stores/debinix/)
 
 I appreciate your support.
+
+## Credits
+
+`Coming soon` splash image by [starline](https://www.freepik.com/free-vector/abstract-grunge-style-coming-soon-with-black-splatter_9504688.htm#query=coming%20soon&position=4&from_view=keyword).
