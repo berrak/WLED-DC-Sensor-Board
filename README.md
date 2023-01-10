@@ -12,13 +12,9 @@
 
 Fast-changing Neopixel pixel currents of the WLED DC sensor are a perfect application example. That was the specific design objective. Unfortunately, the varying current level is often only roughly estimated in such [WLED projects](https://kno.wled.ge).
 
-Together with an ESP8266 D1-mini microcontroller and the Arduino library [SensorWLED](https://github.com/berrak/SensorWLED) split the input `DC varying analog signal` into components. The library methods return these as read, while other functions hold the peak value while decaying with user-set decay parameters.
+The current shunt board combined with an ESP8266 D1-mini microcontroller, and the Arduino library [SensorWLED](https://github.com/berrak/SensorWLED) make it easy to measure currents up to 10 Ampere with good accuracy. 
  
-- Keep peak value readings on display for humans to record while at the same time following real-time updates in parallel without loss of information.
-- The library support exponential- and linear decay rate for slow and fast superimposed DC signals, respectively.
-- Create fast-changing VU-meters or equally track DC disturbances occurring widely apart in time.
-
-The library can be used on any analog microcontroller input, thus not requiring the sensor board.
+The female header breaks out I2C-signals, VCC, and GND for an OLED display.
 
 ## Board main features
 
@@ -35,7 +31,7 @@ The board is based on Texas Instrument INAx180 low- and high-side voltage output
  - Gain: 200V/V
  - Quiescent current: 260 μA maximum
 
-The current sense resistor (1.5 mOhm, 1%, 50ppm/C) mesaure momentanous currents up to 10A.
+The current sense resistor (1.5 mOhm, 1%, 50ppm/C) handles currents up to 10A.
 
 ## Items to add
 
