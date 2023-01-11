@@ -10,15 +10,16 @@
 
 ## WLED Neopixel projects 
 
-Fast-changing Neopixel pixel currents of the WLED DC sensor are a perfect application example. That was the specific design objective. Unfortunately, the varying current level is often only roughly estimated in such [WLED projects](https://kno.wled.ge).
+The `electrical current shunt board` combined with an ESP8266 D1-mini microcontroller and the Arduino library [SensorWLED](https://github.com/berrak/SensorWLED) make it easy to measure up to 10 Ampere with reasonable accuracy. 
 
-The current shunt board combined with an ESP8266 D1-mini microcontroller, and the Arduino library [SensorWLED](https://github.com/berrak/SensorWLED) make it easy to measure currents up to 10 Ampere with good accuracy. 
+Tracking fast-changing Neopixel pixel currents with the WLED DC sensor is a perfect application example. That was the specific design objective. 
+Unfortunately, the varying current level is often only roughly estimated in [WLED projects](https://kno.wled.ge).
  
-The female header breaks out I2C-signals, VCC, and GND for an OLED display.
+The female header breaks out I2C-signals, VCC (3.3V), and GND for a small OLED display. Alternatively, use a larger SPI-based display or send data with WiFi for remote monitoring.
 
 ## Board main features
 
-The board is based on Texas Instrument INAx180 low- and high-side voltage output current-sense amplifier with the following main characteristics.
+The Texas Instrument INAx180 low- and high-side voltage output current-sense amplifier has the following main characteristics.
 
 - Common-mode range (V CM ): –0.2 V to +26 V
 - Output slew rate: 2 V/μs
@@ -39,11 +40,11 @@ The current sense resistor (1.5 mOhm, 1%, 50ppm/C) handles currents up to 10A.
 - Female header pins for the microcontroller.
 - Display (I2C interface) for current readings.
 
-Measured values are not strictly required since they are accessible through a web browser. Neither is the usage of an ESP8266. Instead, use the sensor with, for example, ESP32 and wire the I2C signals from the sensor to the microcontroller.
+Measured values are not strictly required to display on an OLED since they are accessible through a web browser. Neither is the usage of an ESP8266. Instead, use the sensor with, for example, ESP32 and wire the I2C signals from the sensor to the microcontroller. Pull-up resistors, e.g., <=3.3 kOhm to VCC on the I2C signals, are recommended.
 
 ## Usage
 
-Please, see the documentation for [SensorWLED](https://github.com/berrak/SensorWLED/).
+Please, see the documentation for the Arduino library [SensorWLED](https://github.com/berrak/SensorWLED/).
 
 ## Specification for the WLED sensor board v1.0
 
@@ -53,21 +54,18 @@ The fabricated two-layer board has the dimensions of 26.0 x 34.2 mm (1.02"x1.35"
 | -----------|-------|------|
 | board material | FR4 | FR4 |
 | board thickness | 39 mil | 1.0 mm |
-| surface finish | HASL | HASL |
 | copper layer thickness | 1.4 mil | 35 um |
-| board color | black | black |
+| board color | purple | purple |
 | board text | white | white |
 | board weight | 2.82 oz | 80 gram |
 
 
-*HASL or HAL*: Hot air (solder) leveling is a finish used on printed circuit boards.
-
 ## The board is fully assembled and tested
 
-The WLED current sensor board is available only fully assembled.
+The WLED current sensor board will be available fully assembled when released.
 
 ## Purchase the board
-Find all the latest designed boards on `Tindie`. 
+Find all my latest designed boards on `Tindie`. 
 
 [![Tindie](./images/tindie-small.png)](https://www.tindie.com/stores/debinix/)
 
